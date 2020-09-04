@@ -1,0 +1,16 @@
+.outer-div {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .odd_no_box,
+  .even_no_box {
+    height: 50vh;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0px 0px 10px #aaa;
+    margin-right: 20px;
+    overflow: auto;
+  }
+}
